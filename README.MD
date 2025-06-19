@@ -28,6 +28,8 @@ Ejemplo: `https://blog.ejemplo.com/carpeta/pagina.html`
 - **TLD (Top-Level Domain)**: `.com` – Extensión que indica el tipo de sitio.
 - **Path (Ruta)**: `/carpeta/pagina.html` – Ubicación del recurso dentro del sitio.
 
-## Link del trabajo realizado 
+## Link del trabajo realizado # 1
 https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_2/
+## Link del trabajo realizado # 2 
+https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_3/
 ---
