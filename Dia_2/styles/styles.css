@@ -1,0 +1,42 @@
+.fotoPerfil {
+            border-radius: 50%;
+            border: 3px solid black;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+.medio-columna {
+  padding: 10px;
+}
+
+
+.medio-info {
+  margin-bottom: 20px;
+}
+
+.medio-info p,
+.medio-habilidades p {
+  margin: 8px 0;
+}
+
+.medio-habilidades {
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+.medio-info h3,
+.medio-habilidades h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+.tabla-principal {
+  background-color: blanchedalmond; 
+  border-collapse: separate; 
+  border-spacing: 0; 
+}
+
+.tabla-principal td {
+  padding: 10px; 
+  background-color: lightblue; 
+}
