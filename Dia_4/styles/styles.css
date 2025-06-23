@@ -113,6 +113,12 @@ body {
     padding: 2rem;
 }
 
+#live {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
 .contenedor2 {
     background-color: #00adee;
     padding: 4rem 2rem;
@@ -172,11 +178,11 @@ body {
 }
 
 #piePagina {
-  display: flex;
-  justify-content: center;
-  gap: 2rem; 
-  padding: 2rem;
-  color: white;
-  flex-wrap: wrap; 
-  font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 1rem;
 }
