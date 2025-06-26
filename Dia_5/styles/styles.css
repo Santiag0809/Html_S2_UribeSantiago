@@ -48,8 +48,8 @@ header {
     content: "";
     position: absolute;
     width: 0;
-    height: 2px;
-    background-color: rgb(198, 247, 125);
+    height: 3.5px;
+    background-color: rgb(153, 255, 0);
     left: 0px;
     bottom: 0;
 }
@@ -59,59 +59,54 @@ header {
 }
 
 header {
-  height: 70px;
+    height: 70px;
 }
 
 .menuPrin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh-70px);
-  gap: 6rem;
+    display: flex;
+    height: 100vh-70px;
+    gap: 6rem;
 }
 
 .contenidoPrincipal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 400px; 
-  margin: 0 auto;
-  gap: 2rem;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 2rem;
 }
 
 .tarjetin img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
+    margin-left: -50rem;
+    padding: 4rem;
 }
 
 .botonTrueque img {
-  width: 100px;
-  cursor: pointer;
+    width: 100px;
+    cursor: pointer;
 }
 
 .lateral {
-  background-color: rgb(29, 29, 29);
-  color: whitesmoke;
-  width: 8rem;
-  text-align: center;
-  height: 100vh;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  align-items: center;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    width: 8rem;
+    text-align: center;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contenidoCentral {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .flechaArriba img,
 .flechaAbajo img {
-  width: 24px;
+    width: 24px;
+    padding: 4rem;
 }
