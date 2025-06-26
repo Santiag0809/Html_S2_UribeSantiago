@@ -85,10 +85,28 @@ header {
     margin-left: -40rem;
 }
 
-.botonTrueque img {
-    width: 100px;
+.botonTrueque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5FF43; 
+    border-radius: 8px;
+    width: 160px;
+    height: 50px; 
     cursor: pointer;
 }
+
+.botonTrueque span {
+    color: #00A651; 
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.botonTrueque img {
+    width: 80px; 
+    height: auto;
+}
+
 
 .lateral {
     background-color: rgb(29, 29, 29);
