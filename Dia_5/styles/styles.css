@@ -1,3 +1,59 @@
-a { 
+a {
     text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.siPaisanada {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.siPaisanada img {
+    width: 24px;
+    height: auto;
+}
+
+.siPaisanada img:hover {
+    transform: scale(1.1);
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu h2 {
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu h2::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(198, 247, 125);
+    left: 0px;
+    bottom: 0;
+}
+
+.menu h2:hover::after {
+    width: 100%;
 }
