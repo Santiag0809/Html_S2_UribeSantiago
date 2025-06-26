@@ -57,3 +57,11 @@ header {
 .menu h2:hover::after {
     width: 100%;
 }
+
+.tarjetin {
+
+    display: flex;
+    margin-left: 14rem;
+
+}
+
