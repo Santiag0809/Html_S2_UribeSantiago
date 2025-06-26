@@ -76,8 +76,13 @@ header {
 }
 
 .tarjetin img {
-    margin-left: -50rem;
+    margin-left: -30rem;
     padding: 4rem;
+}
+
+.trueque {
+    font-size: 1.5rem;
+    margin-left: -40rem;
 }
 
 .botonTrueque img {
