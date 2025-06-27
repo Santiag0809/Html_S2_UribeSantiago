@@ -1,0 +1,23 @@
+div {
+    background-color: aquamarine;
+}
+div h1 {
+    color: blueviolet;
+}
+div h1#hola {
+    color: violet;
+}
+button {
+    background-color: lightpink;
+}
+button[disabled] {
+    background-color: lightcoral;
+    color: white;
+}
+
+input[type="password"] {
+    background-color: aquamarine;
+}
+input[type="text"] {
+    background-color: aquamarine;
+}
