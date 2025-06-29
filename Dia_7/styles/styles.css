@@ -1,44 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: #000;
-    color: white;
-    font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #070707;
+  color: white;
+  font-family: sans-serif;
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .texto {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .texto p {
-  position: relative; 
+  position: relative;
   cursor: pointer;
 }
 
@@ -47,7 +48,7 @@ header {
   position: absolute;
   width: 0%;
   height: 2.5px;
-  background-color: rgb(182, 161, 44);
+  background-color: rgb(201, 179, 59);
   left: 0;
   bottom: -5px;
 }
@@ -83,5 +84,20 @@ header {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-left: 30px; 
+  margin-left: 30px;
+}
+
+.buttonHero a {
+  display: inline-block;
+  background-color: #d59b53;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonHero a:hover {
+  background-color: #b07a35;
 }
