@@ -1,18 +1,57 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #000; 
-  color: white; 
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
 }
 
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.texto {
+    display: flex;
+    gap: 30px;
+}
+
+.texto p {
+  position: relative; 
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.texto p::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2.5px;
+  background-color: rgb(182, 161, 44);
+  left: 0;
+  bottom: -5px;
+}
+
+.texto p:hover::after {
+  width: 100%;
 }
