@@ -17,6 +17,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
 /*Estilizamos el encabezado*/
 header {
   display: flex;
@@ -165,3 +166,39 @@ header {
   background-color: #b07a35;
 }
 
+/*Use un media query para el story debido a que use medidas absolutas*/
+
+@media (max-width: 768px) {
+
+  .storyContainer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .storyImg img {
+    width: 80%;
+    margin: 0 auto 2rem;
+  }
+
+  .storyContenido {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .storyTitle {
+    justify-content: center;
+  }
+
+  .lineaStory {
+    margin-right: 10px;
+  }
+
+  .storyContenido p {
+    font-size: 1rem;
+  }
+
+  .botonStory {
+    margin-top: 1rem;
+  }
+}
