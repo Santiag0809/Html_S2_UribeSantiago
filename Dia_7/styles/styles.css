@@ -166,7 +166,61 @@ header {
   background-color: #b07a35;
 }
 
-/*Use un media query para el story debido a que use medidas absolutas*/
+/*La otra parte de la pagina antes de finalizar*/
+
+.place {
+  padding: 5rem 2rem;
+  background-color: #000;
+  color: white;
+}
+
+.placeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.placeText {
+  max-width: 500px;
+}
+
+.placeTexto h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.placeText p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.placeImg img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.botonPlace {
+  display: inline-block;
+  background-color: #d59b53;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  width: 5.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1px;
+}
+
+.botonPlace:hover {
+  background-color: #b07a35;
+}
+
+/*Use un media query para las demas partes de la pagina debido a que use medidas absolutas*/
 
 @media (max-width: 768px) {
 
@@ -200,5 +254,21 @@ header {
 
   .botonStory {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .placeContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .placeText h2 {
+    font-size: 2.2rem;
+  }
+
+  .placeImg img {
+    width: 80%;
+    margin: 0 auto;
   }
 }
