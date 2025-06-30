@@ -220,6 +220,104 @@ header {
   background-color: #b07a35;
 }
 
+/*Estilos para los productos*/
+
+.products {
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: white;
+}
+
+.products h2 {
+  text-align: left;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.productContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  border: 1px solid #d59b53;
+  width: 280px;
+  border-radius: 6px;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  min-height: 460px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+.productCard img {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #d59b53;
+}
+
+.productContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.productContent h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.productContent ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.productContent li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.boton {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d59b53;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  width: 5.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.boton:hover {
+  background-color: #b07a35;
+}
+
 /*Use un media query para las demas partes de la pagina debido a que use medidas absolutas*/
 
 @media (max-width: 768px) {
