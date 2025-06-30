@@ -1,3 +1,4 @@
+/*Estilo general para la pagina*/
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ img {
   max-width: 100%;
   display: block;
 }
-
+/*Estilizamos el encabezado*/
 header {
   display: flex;
   justify-content: space-between;
@@ -57,6 +58,8 @@ header {
   width: 100%;
 }
 
+/* Le damos estilo al hero, la parte mas llamativa de una pagina*/
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -92,12 +95,73 @@ header {
   background-color: #d59b53;
   color: black;
   padding: 10px 20px;
+  width: 5.5rem;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  border-radius: 1px;
 }
 
 .buttonHero a:hover {
   background-color: #b07a35;
 }
+
+/*Empezamos a darle estilo a la parte del story*/
+.story {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+}
+
+.storyImg img {
+  width: 20rem;
+  height: auto;
+  margin-left: 16rem;
+}
+
+.storyContainer {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 0 2rem;
+}
+
+.storyContenido {
+  color: #fff;
+  text-align: left;
+  margin-left: 24rem;
+}
+
+.storyTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lineaStory {
+  width: 65px;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.storyTitle h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.botonStory {
+  display: inline-block;
+  background-color: #d59b53;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  width: 5.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1px;
+}
+
+.botonStory:hover {
+  background-color: #b07a35;
+}
+
