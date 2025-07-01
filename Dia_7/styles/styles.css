@@ -112,6 +112,7 @@ header {
 }
 
 /*Empezamos a darle estilo a la parte del story*/
+
 .story {
   display: flex;
   flex-direction: column;
@@ -119,16 +120,16 @@ header {
 }
 
 .storyImg img {
-  width: 20rem;
+  width: 10vw;
   height: auto;
-  margin-left: 16rem;
 }
 
 .storyContainer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 4rem;
-  padding: 0 2rem;
+  padding: 0 20vw;
 }
 
 .storyContenido {
