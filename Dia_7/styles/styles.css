@@ -18,6 +18,11 @@ img {
   display: block;
 }
 
+footer {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
 /*Estilizamos el encabezado*/
 header {
   display: flex;
@@ -316,6 +321,62 @@ header {
 
 .boton:hover {
   background-color: #b07a35;
+}
+
+/*Estilos footer*/
+
+.columna {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.cajaFooter {
+  max-width: 300px;
+  margin: 1rem;
+}
+
+.cajaFooter h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cajaFooter span {
+  color: #d59b53;
+}
+
+.cajaFooter p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.FooterCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lineDecorativaArriba {
+  width: 90%;
+  height: 2px;
+  background-color: #d59b53;
+  margin: 0 auto 2rem auto;
+}
+.FooterCopy .line {
+  width: 90%;
+  height: 2px;
+  background-color: #d59b53;
+}
+
+.FooterCopy p {
+  font-size: 0.9rem;
+}
+
+.FooterCopy span {
+  color: #d59b53;
 }
 
 /*Use un media query para las demas partes de la pagina debido a que use medidas absolutas*/
