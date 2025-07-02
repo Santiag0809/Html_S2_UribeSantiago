@@ -36,4 +36,6 @@ https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_3/
 https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_4/
 ## Link del trabajo realizado # 4 (Tarea metrolinea)
 https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_5/
+## Link del trabajo realizado (Cafe)
+https://santiag0809.github.io/Html_S2_UribeSantiago/Dia_7/
 ---
