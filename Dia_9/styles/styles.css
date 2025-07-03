@@ -4,6 +4,12 @@ body {
     padding: 4rem;
 }
 
+.texto {
+    margin-left: 36vw;
+    color: white;
+    font-family: sans-serif
+}
+
 .tablasBENTO {
     display: flex;
     flex-direction: column;
@@ -81,30 +87,34 @@ img {
 
 @media only screen and (max-width: 768px) {
 
-  .tablasBENTO {
-    padding: 1rem;
-  }
+    .tablasBENTO {
+        padding: 1rem;
+    }
 
-  .tablasBentoArriba,
-  .tablasBentoAbajo {
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto;
-  }
+    .tablasBentoArriba,
+    .tablasBentoAbajo {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 
+    .texto {
+        margin-left: 0;
+        text-align: center;
+    }
 
-  .item1,
-  .item2,
-  .item3,
-  .item4,
-  .item5,
-  .item6,
-  .item7 {
-    grid-column: 1;
-    grid-row: auto;
-  }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6,
+    .item7 {
+        grid-column: 1;
+        grid-row: auto;
+    }
 
-  .img {
-    border-radius: 4%; 
-  }
+    .img {
+        border-radius: 4%;
+    }
 
 }
