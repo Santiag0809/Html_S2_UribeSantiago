@@ -79,3 +79,32 @@ img {
 }
 
 
+@media only screen and (max-width: 768px) {
+
+  .tablasBENTO {
+    padding: 1rem;
+  }
+
+  .tablasBentoArriba,
+  .tablasBentoAbajo {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+  }
+
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .img {
+    border-radius: 4%; 
+  }
+
+}
