@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.animacion {
+    width: 1100px;
+    height: 568px;
+    position: relative;
+    margin: auto;
+    margin-top: 12rem;
+}
+
+.fondo {
+    background-image: url(../imagenes/fondoBerni.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    animation: animacionFondo linear 6s infinite;
+}
+
+.puente {
+    background-image: url(../imagenes/puenteBerni.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 284px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    animation: animacionFondo linear 6s infinite;
+}
+
+.paisano {
+    background-image: url(../imagenes/frame1.png);
+    height: 210px;
+    width: 150px;
+    background-size: cover;
+    animation: animacionPaisanada 2s infinite;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@keyframes animacionFondo {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -1000px;
+    }
+}
+
+@keyframes animacionPaisanada {
+    0% {
+        background-image: url(../imagenes/frame1.png);
+    }
+
+    20% {
+        background-image: url(../imagenes/frame2.png);
+    }
+
+    40% {
+        background-image: url(../imagenes/frame3.png);
+    }
+
+    60% {
+        background-image: url(../imagenes/frame4.png);
+    }
+
+    80% {
+        background-image: url(../imagenes/frame5.png);
+    }
+
+    100% {
+        background-image: url(../imagenes/frame6.png);
+    }
+}
